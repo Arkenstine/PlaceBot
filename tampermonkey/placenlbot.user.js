@@ -22,7 +22,7 @@
 // Překlad: Omlouváme se za chaotický kód, spěch a čistota nejdou vždy dohromady. ;)
 
 const VERSION = 19;
-const BACKEND_URL = 'r-placeczechbot.onrender.com';
+const BACKEND_URL = 'afip-command.onrender.com/';
 const BACKEND_API_WS_URL = `wss://${BACKEND_URL}/api/ws`;
 const BACKEND_API_MAPS = `https://${BACKEND_URL}/maps`;
 
