@@ -1,25 +1,23 @@
 // ==UserScript==
-// @name         PlaceNL Bot (Czech Edition)
-// @namespace    https://github.com/PlaceCZ/Bot
+// @name         American Flag in Place 
+// @namespace    https://github.com/bwallxyz/PlaceBot
 // @version      20
-// @description  Bot pro r/place, puvodem od NL, predelan pro CZ
-// @author       NoahvdAa, GravelCZ, MartinNemi03, Wavelink
+// @description  A bot for r/place
+// @author       NoahvdAa, GravelCZ, MartinNemi03, Wavelink, bwall
 // @match        https://www.reddit.com/r/place/*
 // @match        https://new.reddit.com/r/place/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @require	     https://cdn.jsdelivr.net/npm/toastify-js
 // @resource     TOASTIFY_CSS https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css
-// @updateURL    https://github.com/PlaceCZ/Bot/raw/master/tampermonkey/placenlbot.user.js
-// @downloadURL  https://github.com/PlaceCZ/Bot/raw/master/tampermonkey/placenlbot.user.js
+// @updateURL    https://github.com/bwallxyz/PlaceBot/raw/master/tampermonkey/placenlbot.user.js
+// @downloadURL  https://github.com/bwallxyz/PlaceBot/raw/master/tampermonkey/placenlbot.user.js
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // @grant        GM.xmlHttpRequest
 // @connect      reddit.com
-// @connect      r-placeczechbot.onrender.com
+// @connect      afip-command.onrender.com
 // ==/UserScript==
 
-// Sorry voor de rommelige code, haast en clean gaatn iet altijd samen ;)
-// Překlad: Omlouváme se za chaotický kód, spěch a čistota nejdou vždy dohromady. ;)
 
 const VERSION = 19;
 const BACKEND_URL = 'afip-command.onrender.com';
