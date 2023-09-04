@@ -17,13 +17,13 @@ https://user-images.githubusercontent.com/35738060/161389444-fe58ebf5-9527-4c8c-
  
  
  
-## Bot Drawbacks
+## Bot Drawbacks:
  
 When the bot places a pixel, it may still seem like you can place a pixel even though the bot has already done it for you (so you are in a 5-minute cooldown). The bot currently does not consider the ongoing cooldown, so it assumes that when you open r/place, it can immediately place a pixel. In the worst case, your first pixel may be placed in the next cycle after 4 minutes and 59 seconds.
  
  
  
-## Getting token
+## Getting token:
  
 ### Using Tampermonkey:  
 **Works only if you have 2FA Turned off.**
